@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Plato de la semana</title>
+    <style>
+        #lista_ingredientes > li {
+            /* Ajustar el ancho de los elementos de la lista para que el borde quede pegado al contenido. */
+            width: 15%;
+            /* Los elementos intermedios de la lista sólo llevan bordes laterales. */
+            border-left: 3px double black;
+            border-right: 3px double black;
+        }
+
+        #lista_ingredientes > li:first-child {
+            /* El primer elemento lleva bordes superior y laterales sólo. */
+            border: 3px double black;
+            border-bottom: 0;
+        }
+
+        #lista_ingredientes > li:last-child {
+            /* El último elemento lleva bordes inferior y laterales. */
+            border: 3px double black;
+            border-top: 0;
+        }
+
+        /* El estilo de la lista anterior se repite aproximadamente para la segunda lista. */
+        #lista_instrucciones > li {
+            width: 42%;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+
+        #lista_instrucciones > li:first-child {
+            border: 2px solid black;
+            border-bottom: 0;
+        }
+
+        #lista_instrucciones > li:last-child {
+            border: 2px solid black;
+            border-top: 0;
+        }
+    </style>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: aliceblue;">
+<h2 style="text-align: center; background-color: #ffe585;">Plato de la semana</h2>
+<h3 style="margin-left: 2.5%; color: lightskyblue;"><em>Berenjenas fritas</em></h3>
+<div style="border: 5px solid black; display: inline-block;">
+    <p style="color: cadetblue;"><em>Comensales: </em><span style="color: red;">4 personas.</span></p>
+    <p style="color: cadetblue;"><em>Tiempo de preparación: </em><span style="color: red;">10 minutos.</span></p>
+    <p style="color: cadetblue;"><em>Tiempo de cocción: </em><span style="color: red;">12 minutos.</span></p>
+</div>
+
+<h2 style="color: lightskyblue">Ingredientes:</h2>
+<ul style="list-style-type: none; color: red;" id="lista_ingredientes">
+    <li>4 berenjenas.</li>
+    <li>Sal.</li>
+    <li>Pimienta.</li>
+    <li>4 cucharadas de harina.</li>
+</ul>
+
+<h2 style="color: lightskyblue">Preparación:</h2>
+<ul style="list-style-type: none; color: red;" id="lista_instrucciones">
+    <li>Lavar las berenjenas.</li>
+    <li>Cortarlas en rodajas.</li>
+    <li>Espolvorearlas con sal.</li>
+    <li>Dejar que suelten el agua durante 30 minutos.</li>
+    <li>Enharizarlas, ponerlas a freír durante 5 minutos en aceite bien caliente.</li>
+</ul>
+</body>
+</html>

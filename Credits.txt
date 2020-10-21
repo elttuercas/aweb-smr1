@@ -1,0 +1,8 @@
+Carlos Amores, 2020
+
+I am personally very grateful to the following projects whose work has been used to provide
+style, functionality and flair to this repository.
+
+jQuery 3.5.1
+    License: https://github.com/jquery/jquery/blob/master/LICENSE.txt
+    Repository: https://github.com/jquery/jquery/tree/3.5.1
