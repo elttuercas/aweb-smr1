@@ -8,37 +8,35 @@
             /* Ajustar el ancho de los elementos de la lista para que el borde quede pegado al contenido. */
             width: 15%;
             /* Los elementos intermedios de la lista sólo llevan bordes laterales. */
-            border-left: 3px double black;
-            border-right: 3px double black;
+            border: 3px double black;
+            border-top: 0;
+            border-bottom: 0;
         }
 
         #lista_ingredientes > li:first-child {
             /* El primer elemento lleva bordes superior y laterales sólo. */
-            border: 3px double black;
-            border-bottom: 0;
+            border-top: 3px double black;
         }
 
         #lista_ingredientes > li:last-child {
             /* El último elemento lleva bordes inferior y laterales. */
-            border: 3px double black;
-            border-top: 0;
+            border-bottom: 3px double black;
         }
 
         /* El estilo de la lista anterior se repite aproximadamente para la segunda lista. */
         #lista_instrucciones > li {
             width: 42%;
-            border-left: 2px solid black;
-            border-right: 2px solid black;
-        }
-
-        #lista_instrucciones > li:first-child {
             border: 2px solid black;
+            border-top: 0;
             border-bottom: 0;
         }
 
+        #lista_instrucciones > li:first-child {
+            border-top: 2px solid black;
+        }
+
         #lista_instrucciones > li:last-child {
-            border: 2px solid black;
-            border-top: 0;
+            border-bottom: 2px solid black;
         }
     </style>
 </head>
