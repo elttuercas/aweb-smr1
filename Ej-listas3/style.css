@@ -1,0 +1,16 @@
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+#elLeftCol {
+    display: inline-block;
+}
+
+#elRightCol {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    margin-left: 4%;
+}

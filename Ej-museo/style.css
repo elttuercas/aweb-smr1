@@ -1,0 +1,59 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #36bb89;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#elHeader {
+    text-align: center;
+}
+
+#elNavBar {
+    text-align: center;
+}
+
+#elMuseumList > div.museumDesc {
+    background-color: white;
+}
+
+#elMuseumList > div.museumDesc > img {
+    padding: 2px;
+    margin-top: 5px;
+    height: 136px;
+    width: 200px;
+}
+
+#elMuseumList > div.museumDesc:nth-child(odd) {
+    border: 7px solid orange;
+    margin-top: 15px;
+}
+
+#elMuseumList > div.museumDesc:nth-child(odd) > img {
+    border: 7px solid yellow;
+    margin-left: 5px;
+    float: left;
+}
+
+#elMuseumList > div.museumDesc:nth-child(even) {
+    border: 7px solid yellow;
+    margin-top: 15px;
+}
+
+#elMuseumList > div.museumDesc:nth-child(even) > img {
+    border: 7px solid orange;
+    float: right;
+    margin-right: 5px;
+}
+
+div.museumDescText {
+    display: inline-block;
+    max-width: 50%;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+div.museumDescText > p {
+    margin-bottom: 0;
+}
