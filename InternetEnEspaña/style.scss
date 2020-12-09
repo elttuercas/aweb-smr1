@@ -1,0 +1,21 @@
+body {
+    background-image: url('media/background.png');
+    background-repeat: repeat;
+    font: 8mm normal Serif;
+}
+
+span.embolden {
+    font-weight: bold;
+}
+
+#yellow_list {
+    > li {
+        background-color: yellow;
+        border: 1px solid blue;
+        box-shadow: 6px 0 6px rgb(0, 0, 0);
+
+        &:last-child {
+            box-shadow: 6px 6px 6px rgb(0, 0, 0);
+        }
+    }
+}

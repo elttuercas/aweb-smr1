@@ -1,0 +1,16 @@
+ul {
+    #asterisk_list {
+        list-style: none;
+
+        > li {
+            .asterisk_list_item {
+                &:before {
+                    content: '*';
+                    position: relative;
+                    left: -5px;
+                    bottom: -3px;
+                }
+            }
+        }
+    }
+}

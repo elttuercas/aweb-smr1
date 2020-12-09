@@ -1,9 +1,12 @@
 .idea
-Ej-imagenes/imagenflores
-Map2/imagenmap
-Map/imagenmap
 *.png
 *.jpg
 *.bmp
 *.mp3
 *.mp4
+*.css
+!webpack.mix.js
+*.js
+node_modules
+package-lock.json
+mix-manifest.json
