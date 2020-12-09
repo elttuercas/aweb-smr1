@@ -1,0 +1,30 @@
+h1 {
+    &#header {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+hr {
+    &#headerUnderline {
+        margin: 0;
+        color: #0000ff;
+    }
+}
+
+h3 {
+    &#title1{
+        border: 1px solid #aaaaaa;
+    }
+}
+
+ul {
+    &#dottedList {
+        border-top: 3px dotted #ff0000;
+        border-bottom: 3px dotted #ff0000;
+    }
+
+    &#dashedList {
+        border: 2px dashed #00ff00;
+    }
+}

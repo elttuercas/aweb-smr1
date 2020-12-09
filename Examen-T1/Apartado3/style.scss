@@ -1,0 +1,36 @@
+img {
+    width: 50px;
+    height: 30px;
+}
+
+ul {
+    &#horizontalList {
+        overflow: hidden;
+
+        > li {
+            float: left;
+
+            > a {
+                background-color: yellow;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+div {
+    margin-left: 4%;
+}
+
+h3 {
+    color: blue;
+    margin-left: 2%;
+
+    &#title3 {
+        color: green;
+    }
+}
+
+h4 {
+    color: red;
+}

@@ -25,6 +25,9 @@ mix.sass('Ej-listas2/style.scss', 'Ej-listas2/style.css');
 mix.sass('Ej-listas3/style.scss', 'Ej-listas3/style.css');
 mix.sass('Ej-museo/style.scss', 'Ej-museo/style.css');
 mix.sass('InternetEnEspaña/style.scss', 'InternetEnEspaña/style.css');
+mix.sass('Examen-T1/Apartado1/style.scss', 'Examen-T1/Apartado1/style.css');
+mix.sass('Examen-T1/Apartado2/style.scss', 'Examen-T1/Apartado2/style.css');
+mix.sass('Examen-T1/Apartado3/style.scss', 'Examen-T1/Apartado3/style.css');
 
 // JavaScript.
 mix.js('bootstrap.ts', 'bootstrap.js');
