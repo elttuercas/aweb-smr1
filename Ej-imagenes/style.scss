@@ -10,15 +10,19 @@ body {
     margin-right: auto;
 }
 
-#header {
-    font-size: 60px;
-    text-align: center;
-    font-weight: normal;
+h1 {
+    #header {
+        font-size: 60px;
+        text-align: center;
+        font-weight: normal;
+    }
 }
 
-#main_wrapper {
-    margin-left: 4.85%;
-    margin-bottom: 5px;
+div {
+    #main_wrapper {
+        margin-left: 4.85%;
+        margin-bottom: 5px;
+    }
 }
 
 img {
