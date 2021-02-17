@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularios</title>
+</head>
+<body>
+<div class="container">
+    <form class="m_form">
+        <div class="form_field">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" name="nombre">
+        </div>
+        <div class="form_field">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="correo@empresa.com" id="email" name="email">
+        </div>
+        <div class="form_field">
+            <label for="asunto">Asunto</label>
+            <select name="asunto" id="asunto" size="3">
+                <option value="1">Pedir presupuesto web</option>
+                <option value="2">Solicitar cita previa</option>
+                <option value="4">Otros</option>
+            </select>
+        </div>
+        <div class="form_field">
+            <fieldset>
+                <legend>¿Cómo nos ha conocido?</legend>
+                <input type="checkbox" name="ref[]" id="ref_1" value="1">
+                <label for="ref_1">Un amigo</label>
+                <input type="checkbox" name="ref[]" id="ref_2" value="2">
+                <label for="ref_2">Googleando</label>
+                <input type="checkbox" name="ref[]" id="ref_3" value="4">
+                <label for="ref_3">Buzoneo</label>
+                <input type="checkbox" name="ref[]" id="ref_4" value="8">
+                <label for="ref_4">Otros</label>
+            </fieldset>
+        </div>
+        <div class="form_field">
+            <label for="msg">Escribe tu mensaje</label>
+            <textarea name="msg" id="msg" cols="30" rows="7"></textarea>
+        </div>
+        <input type="checkbox" name="tos" id="tos">
+        <label for="tos">He leído y acepto el <a href="#">aviso legal y la política de privacidad</a></label>
+        <button class="sub_btn" type="submit">Carlos Amores</button>
+    </form>
+</div>
+</body>
+</html>

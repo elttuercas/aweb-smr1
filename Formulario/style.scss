@@ -1,0 +1,47 @@
+div.container {
+    border-radius: 5px;
+    background-color: #1d6e8e;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.m_form {
+    margin: 0 25px;
+    padding: 25px 0;
+    overflow: hidden;
+
+    legend, label:not(input[type="checkbox"] + label) {
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    label:not(input[type="checkbox"] + label) {
+        margin: 10px 0;
+    }
+
+    input[type="checkbox"] + label {
+        font-size: 0.75em;
+    }
+
+    div.form_field {
+        display: block;
+
+        > label {
+            display: block;
+        }
+
+        > input {
+            width: 97%;
+        }
+
+        > select, textarea {
+            width: 100%;
+        }
+    }
+
+    button.sub_btn {
+        float: right;
+        margin-top: 15px;
+    }
+}

@@ -29,7 +29,8 @@ mix.webpackConfig(
 //mix.sass('Examen-T1/Apartado1/style.scss', 'Examen-T1/Apartado1/style.css');
 //mix.sass('Examen-T1/Apartado2/style.scss', 'Examen-T1/Apartado2/style.css');
 //mix.sass('Examen-T1/Apartado3/style.scss', 'Examen-T1/Apartado3/style.css');
-mix.sass('Ej-repaso/style.scss', 'Ej-repaso/style.css')
+mix.sass('Ej-repaso/style.scss', 'Ej-repaso/style.css');
+mix.sass('Formulario/style.scss', 'Formulario/style.css');
 
 // JavaScript.
 mix.js('bootstrap.ts', 'bootstrap.js');
